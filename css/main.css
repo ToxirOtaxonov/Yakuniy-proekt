@@ -1,0 +1,42 @@
+.fixed{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    line-height: 45px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-color: whitesmoke;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+.fixed:hover{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+.phones:hover{
+    box-shadow: 0 0 50px rgba(80,80,80,0.5);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.backwall{
+    background: linear-gradient(purple,blue);
+}
+.menu{
+    border: 3px solid;
+    width: 110px;
+}
+.menu:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+    color: black;
+    font-weight: bold;
+    transform: scale(1.1);
+    border: 3px outset black;
+}

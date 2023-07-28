@@ -1,0 +1,57 @@
+.fixed{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    line-height: 45px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    background-image: url("../rasmlar/down-arrow.svg");
+    background-color: whitesmoke;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+.fixed:hover{
+    background-color: lightgray;
+    border: 1px solid lightgray;
+}
+.buy{
+    width: 200px!important;
+    border: 3px solid;
+}
+.buy:hover{
+    background-color: whitesmoke!important;
+    transition: 0.5s!important;
+    color: black!important;
+    border: 3px outset black;
+    transform: scale(1.1);
+    font-weight: bold;
+}
+.menu{
+    border: 3px solid;
+    width: 110px;
+}
+.menu:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+    color: black;
+    font-weight: bold;
+    transform: scale(1.1);
+    border: 3px outset black;
+}
+.background{
+    background: linear-gradient(rebeccapurple,blue);
+}
+.phones:hover{
+    box-shadow: 0 0 20px rgba(80,80,80,0.5);
+    transition: 1s;
+    transform: scale(1.1);
+}
+.backwall{
+    background: linear-gradient(purple,blue);
+}
